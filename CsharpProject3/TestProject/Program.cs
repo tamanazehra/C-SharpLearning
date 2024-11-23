@@ -2,18 +2,16 @@
 {
     private static void Main(string[] args)
     {
-      
-        void DisplayRandomNumbers()
+        void GeneratingRandomNumbers()
         {
             Random random = new Random();
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 5 ; i++)
             {
-                Console.WriteLine($"{random.Next(1,100)}");
+                Console.Write($"{random.Next(1, 100)} ");
             }
-            Console.WriteLine();
         }
-           Console.WriteLine("Generating random numbers:");
-           DisplayRandomNumbers();
+        Console.WriteLine("Generating Random Numbers:");
+        GeneratingRandomNumbers();
     }
 }
