@@ -38,11 +38,11 @@
         decimal zahirahScore = (decimal) zahirahSum /  currentAssignments;
         decimal jeongScore = (decimal) jeongSum / currentAssignments;
        
-
-        Console.WriteLine("Sophia: " + sophiaScore + " A");
-        Console.WriteLine("Nicolas: " + nicolasScore + " B");
-        Console.WriteLine("Zahira: " + zahirahScore + " B");
-        Console.WriteLine("Jeong: " + jeongScore + " A");
+        Console.WriteLine("Student's\tGrades\n");
+        Console.WriteLine("Sophia:\t" + sophiaScore + "\tA");
+        Console.WriteLine("Nicolas: " + nicolasScore + "\tB");
+        Console.WriteLine("Zahira:\t" + zahirahScore + "\tB");
+        Console.WriteLine("Jeong:\t" + jeongScore + "\tA");
 
     }
 }
