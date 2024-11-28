@@ -18,10 +18,10 @@
         int gradeA = 4;
         int gradeB = 3;
 
-        int course1Grade  = gradeA;
+        int course1Grade = gradeA;
         int course2Grade = gradeB;
         int course3Grade = gradeB;
-        int course4Grade  = gradeB;
+        int course4Grade = gradeB;
         int course5Grade = gradeA;
 
         int totalCreditHours = 0;
