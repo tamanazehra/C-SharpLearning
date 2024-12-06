@@ -6,7 +6,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine(testProgram(1, 2));
+        Console.WriteLine(testProgram(1, 3));
         Console.WriteLine(testProgram(2, 3));
         Console.WriteLine(testProgram(2, 2));
         Console.ReadLine();
