@@ -21,7 +21,7 @@ internal class Program
     }
     private static string test(string str)
     {
-        if (str.Length < 3)
+        if (str.Length <j0 3)
         {
             return str.ToUpper();
         }
