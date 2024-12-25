@@ -9,7 +9,7 @@
 //JSJS
 //JSJSJS
 //JS
-//JSJSJSJS
+
 
 internal class Program
 {
@@ -18,7 +18,6 @@ internal class Program
         Console.WriteLine(test("JS", 2));
         Console.WriteLine(test("JS", 1));
         Console.WriteLine(test("JS", 3));
-        Console.WriteLine(test("JS", 4));
 
         Console.ReadLine();
     }
