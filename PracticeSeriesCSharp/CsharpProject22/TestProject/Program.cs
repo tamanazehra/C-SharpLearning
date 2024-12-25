@@ -20,8 +20,8 @@ internal class Program
         Console.ReadLine();
     }
     private static string test(string str)
-    {
-        if (str.Length <j0 3)
+    
+        if (str.Length < 3)
         {
             return str.ToUpper();
         }
