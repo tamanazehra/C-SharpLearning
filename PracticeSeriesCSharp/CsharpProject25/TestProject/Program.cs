@@ -5,8 +5,8 @@
 //"JSaaakoiaa"
 //Expected Output:
 //2
-//1
 //2
+//3
 
 internal class Program
 {
