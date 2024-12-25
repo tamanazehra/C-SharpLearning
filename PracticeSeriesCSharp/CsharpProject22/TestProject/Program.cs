@@ -4,6 +4,7 @@
 //"Javascript"
 //"js"
 //"PHP"
+//"Html"
 
 
 using System.Security;
@@ -16,10 +17,12 @@ internal class Program
         Console.WriteLine(test("Javascript"));
         Console.WriteLine(test("js"));
         Console.WriteLine(test("PHP"));
+        Console.WriteLine(test("Html"));
 
         Console.ReadLine();
     }
     private static string test(string str)
+    {
     
         if (str.Length < 3)
         {
