@@ -4,7 +4,13 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Enter the String : ");
-        string input = Console.ReadLine();
+        string? input = Console.ReadLine();
+            if (input == null)
+                {
+                    Console.WriteLine("Input cannot be null!");
+                    return;
+                }
+
 
         string compressed = Compress(input);
         Console.WriteLine("The Compressed Output: " + compressed);
