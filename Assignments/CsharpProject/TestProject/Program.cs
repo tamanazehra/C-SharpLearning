@@ -20,7 +20,7 @@ internal class Program
 
     private static string fName(string fullName)
     {
-        string[] nameParts = fullName.Split('z');
+        string[] nameParts = fullName.Split(' ');
         if (nameParts.Length > 0)
         { 
             return nameParts[0];
@@ -33,7 +33,7 @@ internal class Program
 
     private static string lName(string fullName)
     {
-        string[] nameParts = fullName.Split('z');
+        string[] nameParts = fullName.Split(' ');
         if(nameParts.Length > 1)
         {
             return nameParts[^1];
