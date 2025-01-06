@@ -4,9 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter your Input: ");
+        Console.Write("Enter your Input: ");
         string input = Console.ReadLine();
         string word = "";
+        Console.Write("The Decompressed Ouptput: " + word);
 
         foreach (char ch in input)
         {
