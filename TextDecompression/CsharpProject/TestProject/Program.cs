@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         
-        string input = "hello2";
+        string input = "hello3";
 
         string word = ""; 
 
@@ -18,8 +18,12 @@ class Program
 
          int number = int.Parse(input[input.Length - 1].ToString()); 
 
-        Console.WriteLine("Word: " + word);
-        Console.WriteLine("Number: " + number);
+     
+
+        for (int i = 1; i <= number; i++)
+        {
+            Console.Write(word + " ");
+        }
     }
 }
 
