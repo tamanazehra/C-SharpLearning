@@ -11,7 +11,7 @@ internal class Program
 
             if (input == null)
                 {
-                    Console.WriteLine("Input cannot be null!");
+                    Console.WriteLine("Input cannot be null !");
                     return;
                 }
 
