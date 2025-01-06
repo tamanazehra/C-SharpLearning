@@ -4,28 +4,29 @@ class Program
 {
     static void Main(string[] args)
     {
-        
-        string input = "hello3";
+        Console.WriteLine("Enter your Input: ");
+        string input = Console.ReadLine();
+        string word = "";
 
-        string word = ""; 
-
-        
-        for (int i = 0; i < input.Length-1; i++)
+        foreach (char ch in input)
         {
-                word += input[i]; 
-            
-        }
-
-         int number = int.Parse(input[input.Length - 1].ToString()); 
-
-     
-
-        for (int i = 1; i <= number; i++)
-        {
-            Console.Write(word + " ");
+            if (ch >= '0' && ch <= '9') 
+            {
+                int Count = int.Parse(ch.ToString());
+                for (int i = 0; i < Count; i++)
+                {
+                    Console.Write(word + " "); 
+                }
+                word = ""; 
+            }
+            else
+            {
+                word += ch;
+            }
         }
     }
 }
+
 
 
 
