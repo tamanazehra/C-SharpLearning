@@ -4,6 +4,7 @@ internal class Program
     private static void Main(string[] args)
     {
 
+<<<<<<< HEAD
          string? input = Console.ReadLine();
 
         Console.WriteLine("Enter the String : ");
@@ -14,7 +15,16 @@ internal class Program
                     Console.WriteLine("Input cannot be null!");
                     return;
                 }
+=======
+        Console.WriteLine("Enter the String : ");
+        string? input = Console.ReadLine();
+>>>>>>> 7887879969ef3a43845404ebceec069f960fd465
 
+        if (input == null)
+        {
+            Console.WriteLine("Input cannot be null!");
+            return;
+        }
         string compressed = Compress(input);
         Console.WriteLine("The Compressed Output: " + compressed);
 
