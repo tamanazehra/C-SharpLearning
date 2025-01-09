@@ -1,4 +1,5 @@
-﻿//Write a C# program that prompts the user for their full name 
+//Assignment-1
+//Write a C# program that prompts the user for their full name 
 //and then extracts their first and last names.
 
 internal class Program
