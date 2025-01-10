@@ -8,12 +8,12 @@ internal class Program
         Console.WriteLine("Enter your String: ");
         string word = Console.ReadLine();
 
-        Console.WriteLine("Enter the index of the charecter to be removed: ");
+        Console.WriteLine("Enter the index of the character to be removed: ");
         int index = Convert.ToInt32(Console.ReadLine());
 
         string output = word.Remove(index, 1);
         Console.WriteLine(output);
+
         Console.ReadLine();
-    }
-    
+    }    
 }
