@@ -4,7 +4,7 @@
 
 internal class Program
 {
-    private static void Main(string[] args)
+     static void Main(string[] args)
     { 
         Console.WriteLine("Please Enter Your Full Name: ");
 
