@@ -7,7 +7,7 @@ public class BankCustomer
     
     public string FirstName = "Tim";
     public string LastName = "Shao";
-    public string CustomerId = "1010101010";
+    public readonly string CustomerId;
 
     public BankCustomer()
     {
